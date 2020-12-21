@@ -10,13 +10,20 @@
 <body>
     <div class="contenedor">
     <h2>Formulario de Contacto</h1>
-    <form action="mailto:cdamiano2011@gmail.com" method="POST"><label>Nombre:</label> 
-	<input maxlength ="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre"/>
-	<label>Email:</label>
-	<input name="email" required type="email" placeholder="Escribe tu email"/>
-	<textarea cols="80 name=" mensaje" rows="8" placeholder="Puedes escribir tu mensaje..."></textarea>
-	<input type="submit" value="enviar">
-	</form>
+    	<form name="contact" netlify>
+		<p>
+		  <label>Name <input type="text" name="name" /></label>
+		</p>
+		<p>
+		  <label>Email <input type="email" name="email" /></label>
+		</p>
+		<p>
+			<textarea cols="80 name=" mensaje" rows="8" placeholder="Puedes escribir tu mensaje..."></textarea>
+		</p>
+		<p>
+		  <button type="submit">Send</button>
+		</p>
+	  </form>
 		   	        
 	<div class="contacto">
     	<div id="linkedin">
@@ -44,12 +51,9 @@
 	
    </div>
    <div id="volver">
-	<a href="Silycris.html">Volver a Inicio</a> 
+	<a href="index.html">Volver a Inicio</a> 
    </div>
-     
    
-    
-    
     
 </body>
 </html>
